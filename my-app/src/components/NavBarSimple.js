@@ -21,7 +21,7 @@ class NavBarSimple extends React.Component {
 
     render() {
         return (
-            <div class={css.NavBar}>
+            <div className={css.NavBar}>
                 <h1>My Gallery</h1>
                 <div>
                     <span>{this.state.message}</span>
